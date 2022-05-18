@@ -1,3 +1,4 @@
+#pragma once
 #include "UserManager.h"
 
 
@@ -15,8 +16,9 @@ void UserManager::addUser(User* pUser) {
 }
 
 void UserManager::removeUser(User* pUser) {
+	string id = pUser->getID();
 	delete pUser;
-	this->users.erase(pUser->getID());
+	this->users.erase(id);
 }
 
 User& UserManager::getUser(string id) {

@@ -1,10 +1,7 @@
+#pragma once
 #include "Login.h"
 #include "Console.h"
 
-
-enum LoginError {
-	TRY_SIGNUP, INVALID_LOGIN, ALREADY_EXIST
-};
 
 Login::Login(UserManager* manager) {
 	this->pMyManager = manager;
@@ -92,4 +89,8 @@ void Login::login() {
 			return login();
 		}
 	}
+}
+
+User& Login::getUser() {
+	return *pMyUser;
 }

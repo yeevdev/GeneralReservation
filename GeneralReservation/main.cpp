@@ -1,10 +1,12 @@
 #include "Console.h"
+#include "AirlineBook.h"
 
 
 int main() {
 	Console::printStartMsg();
 
 	//프로그램 동적할당.
+	AirlineBook& airlineBookProgram = *(new AirlineBook());
 
 	while (true) {
 		int selectedProgram = Console::selectProgram();
@@ -12,6 +14,7 @@ int main() {
 		if (selectedProgram == 1) {
 			// 항공권 예약
 			Console::clear();
+			airlineBookProgram.run();
 
 		}
 		else if (selectedProgram == 2) {
