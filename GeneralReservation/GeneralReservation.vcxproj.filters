@@ -13,5 +13,99 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="소스 파일\core">
+      <UniqueIdentifier>{bc0bd24a-ac6b-4e4e-a856-5befe73d0b04}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\core\User">
+      <UniqueIdentifier>{c8649db3-05e4-4ec3-ba22-3ba5851117d7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\core\Login">
+      <UniqueIdentifier>{dab6968d-68e5-4d20-9d09-1072bf452c55}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\core\Console">
+      <UniqueIdentifier>{1829f68a-f641-4479-9ad4-339d25f4ac3f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\AirlineBook">
+      <UniqueIdentifier>{26d2dbd2-298f-46dc-ab69-bd8f58f6497e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\RestaurantBook">
+      <UniqueIdentifier>{eadec3d7-69bc-4bed-b48f-9b31ff6f95ac}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\ReadingroomBook">
+      <UniqueIdentifier>{89b3c8c7-406b-4646-b7d3-7374b0c4d339}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="User.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="UserManager.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Login.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Console.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="AirlineBook.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="AirlineBookUser.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="AirlineBookConsole.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="AirlineBookLogin.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="AirlineBookFlight.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="AirlineBookSeat.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="AirlineBookTicket.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="User.cpp">
+      <Filter>소스 파일\core\User</Filter>
+    </ClCompile>
+    <ClCompile Include="UserManager.cpp">
+      <Filter>소스 파일\core\User</Filter>
+    </ClCompile>
+    <ClCompile Include="Login.cpp">
+      <Filter>소스 파일\core\Login</Filter>
+    </ClCompile>
+    <ClCompile Include="Console.cpp">
+      <Filter>소스 파일\core\Console</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="AirlineBook.cpp">
+      <Filter>소스 파일\AirlineBook</Filter>
+    </ClCompile>
+    <ClCompile Include="AirlineBookUser.cpp">
+      <Filter>소스 파일\AirlineBook</Filter>
+    </ClCompile>
+    <ClCompile Include="AirlineBookConsole.cpp">
+      <Filter>소스 파일\AirlineBook</Filter>
+    </ClCompile>
+    <ClCompile Include="AirlineBookLogin.cpp">
+      <Filter>소스 파일\AirlineBook</Filter>
+    </ClCompile>
+    <ClCompile Include="AirlineBookFlight.cpp">
+      <Filter>소스 파일\AirlineBook</Filter>
+    </ClCompile>
+    <ClCompile Include="AirlineBookSeat.cpp">
+      <Filter>소스 파일\AirlineBook</Filter>
+    </ClCompile>
+    <ClCompile Include="AirlineBookTicket.cpp">
+      <Filter>소스 파일\AirlineBook</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
