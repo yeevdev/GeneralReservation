@@ -69,6 +69,24 @@
     <ClInclude Include="AirlineBookTicket.h">
       <Filter>헤더 파일</Filter>
     </ClInclude>
+    <ClInclude Include="RestaurantBook.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="RestaurantBookConsole.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="RestaurantBookReservation.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="RestaurantBookLogin.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="RestaurantBookUser.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="RestaurantBookTable.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="User.cpp">
@@ -106,6 +124,24 @@
     </ClCompile>
     <ClCompile Include="AirlineBookTicket.cpp">
       <Filter>소스 파일\AirlineBook</Filter>
+    </ClCompile>
+    <ClCompile Include="RestaurantBook.cpp">
+      <Filter>소스 파일\RestaurantBook</Filter>
+    </ClCompile>
+    <ClCompile Include="RestaurantBookConsole.cpp">
+      <Filter>소스 파일\RestaurantBook</Filter>
+    </ClCompile>
+    <ClCompile Include="RestaurantBookLogin.cpp">
+      <Filter>소스 파일\RestaurantBook</Filter>
+    </ClCompile>
+    <ClCompile Include="RestaurantBookReservation.cpp">
+      <Filter>소스 파일\RestaurantBook</Filter>
+    </ClCompile>
+    <ClCompile Include="RestaurantBookTable.cpp">
+      <Filter>소스 파일\RestaurantBook</Filter>
+    </ClCompile>
+    <ClCompile Include="RestaurantBookUser.cpp">
+      <Filter>소스 파일\RestaurantBook</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
