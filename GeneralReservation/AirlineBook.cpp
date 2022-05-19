@@ -58,6 +58,7 @@ void AirlineBook::run() {
 			stat(thisUser.getID());
 		}
 		else if (selectedMenu == 5) {
+			Console::clear();
 			AirlineBookConsole::printExitMsg();
 			break;
 		}

@@ -1,6 +1,7 @@
 #include "Console.h"
 #include "AirlineBook.h"
 #include "RestaurantBook.h"
+#include "ReadingroomBook.h"
 
 
 int main() {
@@ -9,6 +10,7 @@ int main() {
 	//프로그램 동적할당.
 	AirlineBook& airlineBookProgram = *(new AirlineBook());
 	RestaurantBook& restaurantBookProgram = *(new RestaurantBook());
+	ReadingroomBook& readingroomBookProgram = *(new ReadingroomBook());
 
 	while (true) {
 		int selectedProgram = Console::selectProgram();
@@ -27,6 +29,7 @@ int main() {
 		else if (selectedProgram == 3) {
 			// 독서실 예약
 			Console::clear();
+			readingroomBookProgram.run();
 		}
 		else if (selectedProgram == 4) {
 			Console::printExitMsg();

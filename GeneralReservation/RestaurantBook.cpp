@@ -56,6 +56,7 @@ void RestaurantBook::run() {
 			stat();
 		}
 		else if (selectedMenu == 7) {
+			Console::clear();
 			RestaurantBookConsole::printExitMsg();
 			break;
 		}

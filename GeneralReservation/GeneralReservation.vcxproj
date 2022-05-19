@@ -28,6 +28,12 @@
     <ClInclude Include="AirlineBookUser.h" />
     <ClInclude Include="Console.h" />
     <ClInclude Include="Login.h" />
+    <ClInclude Include="ReadingroomBook.h" />
+    <ClInclude Include="ReadingroomBookConsole.h" />
+    <ClInclude Include="ReadingroomBookLogin.h" />
+    <ClInclude Include="ReadingroomBookReservation.h" />
+    <ClInclude Include="ReadingroomBookSeat.h" />
+    <ClInclude Include="ReadingroomBookUser.h" />
     <ClInclude Include="RestaurantBook.h" />
     <ClInclude Include="RestaurantBookConsole.h" />
     <ClInclude Include="RestaurantBookLogin.h" />
@@ -48,6 +54,12 @@
     <ClCompile Include="Console.cpp" />
     <ClCompile Include="Login.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="ReadingroomBook.cpp" />
+    <ClCompile Include="ReadingroomBookConsole.cpp" />
+    <ClCompile Include="ReadingroomBookLogin.cpp" />
+    <ClCompile Include="ReadingroomBookReservation.cpp" />
+    <ClCompile Include="ReadingroomBookSeat.cpp" />
+    <ClCompile Include="ReadingroomBookUser.cpp" />
     <ClCompile Include="RestaurantBook.cpp" />
     <ClCompile Include="RestaurantBookConsole.cpp" />
     <ClCompile Include="RestaurantBookLogin.cpp" />

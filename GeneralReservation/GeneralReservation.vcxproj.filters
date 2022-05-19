@@ -87,6 +87,24 @@
     <ClInclude Include="RestaurantBookTable.h">
       <Filter>헤더 파일</Filter>
     </ClInclude>
+    <ClInclude Include="ReadingroomBook.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="ReadingroomBookConsole.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="ReadingroomBookLogin.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="ReadingroomBookUser.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="ReadingroomBookReservation.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="ReadingroomBookSeat.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="User.cpp">
@@ -142,6 +160,24 @@
     </ClCompile>
     <ClCompile Include="RestaurantBookUser.cpp">
       <Filter>소스 파일\RestaurantBook</Filter>
+    </ClCompile>
+    <ClCompile Include="ReadingroomBook.cpp">
+      <Filter>소스 파일\ReadingroomBook</Filter>
+    </ClCompile>
+    <ClCompile Include="ReadingroomBookConsole.cpp">
+      <Filter>소스 파일\ReadingroomBook</Filter>
+    </ClCompile>
+    <ClCompile Include="ReadingroomBookLogin.cpp">
+      <Filter>소스 파일\ReadingroomBook</Filter>
+    </ClCompile>
+    <ClCompile Include="ReadingroomBookReservation.cpp">
+      <Filter>소스 파일\ReadingroomBook</Filter>
+    </ClCompile>
+    <ClCompile Include="ReadingroomBookSeat.cpp">
+      <Filter>소스 파일\ReadingroomBook</Filter>
+    </ClCompile>
+    <ClCompile Include="ReadingroomBookUser.cpp">
+      <Filter>소스 파일\ReadingroomBook</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
